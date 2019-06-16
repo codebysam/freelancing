@@ -1,0 +1,19 @@
+<div class="programme-container">
+	<div class="main-title">
+		PROGRAMMES
+	</div>
+	<div class="programme-content">
+		<div class="bar"></div>
+		<div class="content-title">
+				{{programmeData[index]['title']}}
+		</div>
+		<div class="bar"></div>
+		<div class="content-text">
+				{{programmeData[index]['content']}}
+		</div>
+		<div class="toggle-container">
+			<div *ngFor="let value of programmeData; let i = index" class="programme-toggle" (click)="setIndex(i)"></div>
+			
+		</div>
+	</div>
+</div>

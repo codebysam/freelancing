@@ -1,0 +1,19 @@
+<div class="about-us-container">
+	<div class="thumbnail">
+		<div class="thumbnail-content">
+			<div class="thumbnail-title">
+				{{aboutContent[index]['title']}}
+			</div>
+			<div class="thumbnail-data">
+					{{aboutContent[index]['content']}}
+			</div>
+			<div class="toggler">
+				<div class="left-toggle" (click)="toggleLeft()"></div>
+				<div class="right-toggle" (click)="toggleRight()"></div>
+			</div>
+		</div>
+		<div class="thumbnail-image">
+			<img src="/assets/happyGoFeetImages/HappyGofeet logo2.jpg">
+		</div>
+	</div>
+</div>

@@ -1,0 +1,16 @@
+<div class="gallery-container">
+    <div class="bar"></div>
+    <div class="main-title">
+      GALLERY
+    </div>
+    <div class="bar"></div>
+  <div class="left-image-holder" (click)="slideLeft()">
+    <img src="{{imagesList[left]}}">
+  </div>
+  <div class="main-image-holder">
+      <img src="{{imagesList[main]}}">
+  </div>
+  <div class="right-image-holder" (click)="slideRight()">
+      <img src="{{imagesList[right]}}">
+  </div>
+</div>

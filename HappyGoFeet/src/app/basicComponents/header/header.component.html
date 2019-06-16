@@ -1,0 +1,40 @@
+<div class="header-conatiner">
+	<div class="title-logo">
+		<img src="/assets/logoedited.png">
+	</div>
+	<div class="nav-toggle-icon" (click)="showNavbar()" *ngIf="!getShowNavBarFlag()">
+		<i class="fas fa-bars"></i>
+	</div>
+	<div class="navigation-bar" *ngIf="getShowNavBarFlag()">
+		<div class="nav-tabs">
+			<div class="bar"></div>
+			<a href="#homeID">Home</a>
+			<div class="bar"></div>
+		</div>
+		<div class="nav-tabs">
+			<div class="bar"></div>
+			<a href="#aboutUsID">About Us</a>
+			<div class="bar"></div>
+		</div>
+		<div class="nav-tabs">
+			<div class="bar"></div>
+			<a href="#galleryID">Gallery</a>
+			<div class="bar"></div>
+		</div>
+		<div class="nav-tabs">
+			<div class="bar"></div>
+			<a href="#programmesID">Programmes</a>
+			<div class="bar"></div>
+		</div>
+		<div class="nav-tabs">
+			<div class="bar"></div>
+			<a href="#activitiesID">Activities</a>
+			<div class="bar"></div>
+		</div>
+		<div class="nav-tabs">
+			<div class="bar"></div>
+			<a href="#contactUsID">Contact Us</a>
+			<div class="bar"></div>
+		</div>
+	</div>
+</div>
