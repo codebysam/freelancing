@@ -1,10 +1,12 @@
 .gallery-container{
     width: 100%;
     max-width: 750px;
-    height: 100%;
+    height: calc(100% - 40px);
     position: relative;
     text-align: center;
     margin: 0px auto;
+    padding: 20px 0px;
+
 }
 
 .main-title {
@@ -22,6 +24,7 @@
 
 .left-image-holder{
     border-radius: 20px;
+    background: #fff;
     width: 50%;
     height: 60%;
     display: inline-block;
@@ -35,6 +38,7 @@
 .right-image-holder{
     border-radius: 20px;
     width: 50%;
+    background: #fff;
     height: 60%;
     display: inline-block;
     position: absolute;
@@ -53,6 +57,7 @@
 .main-image-holder{
     border-radius: 20px;
     position: absolute;
+    background: #fff;
     top: 15%;
     height: 80%;
     width: 60%;
